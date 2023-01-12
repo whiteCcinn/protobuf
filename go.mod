@@ -8,3 +8,5 @@ require (
 	github.com/google/go-cmp v0.5.5
 	google.golang.org/protobuf v1.26.0
 )
+
+replace google.golang.org/protobuf v1.26.0 => github.com/whiteCcinn/protobuf-go v0.0.0-20230112093848-2657130037bf
