@@ -9,4 +9,4 @@ require (
 	google.golang.org/protobuf v1.26.0
 )
 
-replace google.golang.org/protobuf v1.26.0 => github.com/whiteCcinn/protobuf-go v1.0.0
+replace google.golang.org/protobuf v1.26.0 => github.com/whiteCcinn/protobuf-go v1.0.1
