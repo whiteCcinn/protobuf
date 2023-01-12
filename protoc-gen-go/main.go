@@ -22,12 +22,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"os"
 	"strings"
 
-	"github.com/whiteCcinn/protobuf/internal/gengogrpc"
 	gengo "github.com/whiteCcinn/protobuf-go/cmd/protoc-gen-go/internal_gengo"
 	"github.com/whiteCcinn/protobuf-go/compiler/protogen"
+	"github.com/whiteCcinn/protobuf/internal/gengogrpc"
 )
 
 func main() {
@@ -64,7 +63,6 @@ func main() {
 			if !f.Generate {
 				continue
 			}
-			fmt.Fprintln(os.Stderr, f.GoPackageName)
 			g := gengo.GenerateFile(gen, f)
 			if grpc {
 				gengogrpc.GenerateFileContent(gen, f, g)
