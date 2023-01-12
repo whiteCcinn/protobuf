@@ -4,9 +4,9 @@
 package duration
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	durationpb "google.golang.org/protobuf/types/known/durationpb"
+	protoreflect "github.com/whiteCcinn/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/whiteCcinn/protobuf-go/runtime/protoimpl"
+	durationpb "github.com/whiteCcinn/protobuf-go/types/known/durationpb"
 	reflect "reflect"
 )
 

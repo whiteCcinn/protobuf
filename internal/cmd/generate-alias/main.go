@@ -17,19 +17,19 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	gengo "google.golang.org/protobuf/cmd/protoc-gen-go/internal_gengo"
-	"google.golang.org/protobuf/compiler/protogen"
-	"google.golang.org/protobuf/reflect/protodesc"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	gengo "github.com/whiteCcinn/protobuf-go/cmd/protoc-gen-go/internal_gengo"
+	"github.com/whiteCcinn/protobuf-go/compiler/protogen"
+	"github.com/whiteCcinn/protobuf-go/reflect/protodesc"
+	"github.com/whiteCcinn/protobuf-go/reflect/protoreflect"
 
-	"google.golang.org/protobuf/types/descriptorpb"
-	"google.golang.org/protobuf/types/known/anypb"
-	"google.golang.org/protobuf/types/known/durationpb"
-	"google.golang.org/protobuf/types/known/emptypb"
-	"google.golang.org/protobuf/types/known/structpb"
-	"google.golang.org/protobuf/types/known/timestamppb"
-	"google.golang.org/protobuf/types/known/wrapperspb"
-	"google.golang.org/protobuf/types/pluginpb"
+	"github.com/whiteCcinn/protobuf-go/types/descriptorpb"
+	"github.com/whiteCcinn/protobuf-go/types/known/anypb"
+	"github.com/whiteCcinn/protobuf-go/types/known/durationpb"
+	"github.com/whiteCcinn/protobuf-go/types/known/emptypb"
+	"github.com/whiteCcinn/protobuf-go/types/known/structpb"
+	"github.com/whiteCcinn/protobuf-go/types/known/timestamppb"
+	"github.com/whiteCcinn/protobuf-go/types/known/wrapperspb"
+	"github.com/whiteCcinn/protobuf-go/types/pluginpb"
 )
 
 func main() {
@@ -43,35 +43,35 @@ func main() {
 		pbDesc   protoreflect.FileDescriptor
 	}{{
 		oldGoPkg: "github.com/golang/protobuf/protoc-gen-go/descriptor;descriptor",
-		newGoPkg: "google.golang.org/protobuf/types/descriptorpb",
+		newGoPkg: "github.com/whiteCcinn/protobuf-go/types/descriptorpb",
 		pbDesc:   descriptorpb.File_google_protobuf_descriptor_proto,
 	}, {
 		oldGoPkg: "github.com/golang/protobuf/protoc-gen-go/plugin;plugin_go",
-		newGoPkg: "google.golang.org/protobuf/types/pluginpb",
+		newGoPkg: "github.com/whiteCcinn/protobuf-go/types/pluginpb",
 		pbDesc:   pluginpb.File_google_protobuf_compiler_plugin_proto,
 	}, {
 		oldGoPkg: "github.com/golang/protobuf/ptypes/any;any",
-		newGoPkg: "google.golang.org/protobuf/types/known/anypb",
+		newGoPkg: "github.com/whiteCcinn/protobuf-go/types/known/anypb",
 		pbDesc:   anypb.File_google_protobuf_any_proto,
 	}, {
 		oldGoPkg: "github.com/golang/protobuf/ptypes/duration;duration",
-		newGoPkg: "google.golang.org/protobuf/types/known/durationpb",
+		newGoPkg: "github.com/whiteCcinn/protobuf-go/types/known/durationpb",
 		pbDesc:   durationpb.File_google_protobuf_duration_proto,
 	}, {
 		oldGoPkg: "github.com/golang/protobuf/ptypes/timestamp;timestamp",
-		newGoPkg: "google.golang.org/protobuf/types/known/timestamppb",
+		newGoPkg: "github.com/whiteCcinn/protobuf-go/types/known/timestamppb",
 		pbDesc:   timestamppb.File_google_protobuf_timestamp_proto,
 	}, {
 		oldGoPkg: "github.com/golang/protobuf/ptypes/wrappers;wrappers",
-		newGoPkg: "google.golang.org/protobuf/types/known/wrapperspb",
+		newGoPkg: "github.com/whiteCcinn/protobuf-go/types/known/wrapperspb",
 		pbDesc:   wrapperspb.File_google_protobuf_wrappers_proto,
 	}, {
 		oldGoPkg: "github.com/golang/protobuf/ptypes/struct;structpb",
-		newGoPkg: "google.golang.org/protobuf/types/known/structpb",
+		newGoPkg: "github.com/whiteCcinn/protobuf-go/types/known/structpb",
 		pbDesc:   structpb.File_google_protobuf_struct_proto,
 	}, {
 		oldGoPkg: "github.com/golang/protobuf/ptypes/empty;empty",
-		newGoPkg: "google.golang.org/protobuf/types/known/emptypb",
+		newGoPkg: "github.com/whiteCcinn/protobuf-go/types/known/emptypb",
 		pbDesc:   emptypb.File_google_protobuf_empty_proto,
 	}}
 

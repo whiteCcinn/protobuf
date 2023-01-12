@@ -17,10 +17,10 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/protobuf/encoding/protojson"
-	protoV2 "google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/whiteCcinn/protobuf-go/encoding/protojson"
+	protoV2 "github.com/whiteCcinn/protobuf-go/proto"
+	"github.com/whiteCcinn/protobuf-go/reflect/protoreflect"
+	"github.com/whiteCcinn/protobuf-go/reflect/protoregistry"
 )
 
 const wrapJSONMarshalV2 = false

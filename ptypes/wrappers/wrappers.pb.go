@@ -4,9 +4,9 @@
 package wrappers
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
+	protoreflect "github.com/whiteCcinn/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/whiteCcinn/protobuf-go/runtime/protoimpl"
+	wrapperspb "github.com/whiteCcinn/protobuf-go/types/known/wrapperspb"
 	reflect "reflect"
 )
 

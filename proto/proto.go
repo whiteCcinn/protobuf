@@ -9,14 +9,14 @@
 // See https://developers.google.com/protocol-buffers/docs/gotutorial for
 // more information.
 //
-// Deprecated: Use the "google.golang.org/protobuf/proto" package instead.
+// Deprecated: Use the "github.com/whiteCcinn/protobuf-go/proto" package instead.
 package proto
 
 import (
-	protoV2 "google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
-	"google.golang.org/protobuf/runtime/protoimpl"
+	protoV2 "github.com/whiteCcinn/protobuf-go/proto"
+	"github.com/whiteCcinn/protobuf-go/reflect/protoreflect"
+	"github.com/whiteCcinn/protobuf-go/runtime/protoiface"
+	"github.com/whiteCcinn/protobuf-go/runtime/protoimpl"
 )
 
 const (
@@ -42,7 +42,7 @@ type GeneratedMessage interface{}
 // than an empty interface as it lacks any method to programatically interact
 // with the contents of the message.
 //
-// A v2 message is declared in "google.golang.org/protobuf/proto".Message and
+// A v2 message is declared in "github.com/whiteCcinn/protobuf-go/proto".Message and
 // exposes protobuf reflection as a first-class feature of the interface.
 //
 // To convert a v1 message to a v2 message, use the MessageV2 function.

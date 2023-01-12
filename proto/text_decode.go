@@ -13,10 +13,10 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	protoV2 "google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/whiteCcinn/protobuf-go/encoding/prototext"
+	protoV2 "github.com/whiteCcinn/protobuf-go/proto"
+	"github.com/whiteCcinn/protobuf-go/reflect/protoreflect"
+	"github.com/whiteCcinn/protobuf-go/reflect/protoregistry"
 )
 
 const wrapTextUnmarshalV2 = false

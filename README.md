@@ -8,13 +8,13 @@ This module
 contains Go bindings for protocol buffers.
 
 It has been superseded by the
-[`google.golang.org/protobuf`](https://pkg.go.dev/mod/google.golang.org/protobuf)
+[`github.com/whiteCcinn/protobuf-go`](https://pkg.go.dev/mod/github.com/whiteCcinn/protobuf-go)
 module, which contains an updated and simplified API,
 support for protobuf reflection, and many other improvements.
-We recommend that new code use the `google.golang.org/protobuf` module.
+We recommend that new code use the `github.com/whiteCcinn/protobuf-go` module.
 
 Versions v1.4 and later of `github.com/golang/protobuf` are implemented
-in terms of `google.golang.org/protobuf`.
+in terms of `github.com/whiteCcinn/protobuf-go`.
 Programs which use both modules must use at least version v1.4 of this one.
 
 See the
@@ -26,7 +26,7 @@ See
 for more information about individual releases of this project.
 
 See
-[documentation for the next major revision](https://pkg.go.dev/mod/google.golang.org/protobuf)
+[documentation for the next major revision](https://pkg.go.dev/mod/github.com/whiteCcinn/protobuf-go)
 for more information about the purpose, usage, and history of this project.
 
 ## Package index

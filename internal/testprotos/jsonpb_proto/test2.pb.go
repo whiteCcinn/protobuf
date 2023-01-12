@@ -6,11 +6,11 @@ package jsonpb_proto
 import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	anypb "google.golang.org/protobuf/types/known/anypb"
-	durationpb "google.golang.org/protobuf/types/known/durationpb"
-	structpb "google.golang.org/protobuf/types/known/structpb"
-	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
-	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
+	anypb "github.com/whiteCcinn/protobuf-go/types/known/anypb"
+	durationpb "github.com/whiteCcinn/protobuf-go/types/known/durationpb"
+	structpb "github.com/whiteCcinn/protobuf-go/types/known/structpb"
+	timestamppb "github.com/whiteCcinn/protobuf-go/types/known/timestamppb"
+	wrapperspb "github.com/whiteCcinn/protobuf-go/types/known/wrapperspb"
 	math "math"
 )
 

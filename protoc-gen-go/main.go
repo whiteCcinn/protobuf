@@ -26,8 +26,8 @@ import (
 	"strings"
 
 	"github.com/whiteCcinn/protobuf/internal/gengogrpc"
-	gengo "google.golang.org/protobuf/cmd/protoc-gen-go/internal_gengo"
-	"google.golang.org/protobuf/compiler/protogen"
+	gengo "github.com/whiteCcinn/protobuf-go/cmd/protoc-gen-go/internal_gengo"
+	"github.com/whiteCcinn/protobuf-go/compiler/protogen"
 )
 
 func main() {

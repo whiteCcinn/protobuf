@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	proto2_proto "github.com/golang/protobuf/internal/testprotos/proto2_proto"
 	proto "github.com/golang/protobuf/proto"
-	anypb "google.golang.org/protobuf/types/known/anypb"
+	anypb "github.com/whiteCcinn/protobuf-go/types/known/anypb"
 	math "math"
 )
 
