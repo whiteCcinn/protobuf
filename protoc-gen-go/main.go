@@ -22,6 +22,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"os"
 	"strings"
 
 	"github.com/whiteCcinn/protobuf/internal/gengogrpc"
@@ -60,6 +61,7 @@ func main() {
 			}
 		}
 		for _, f := range gen.Files {
+			fmt.Fprintln(os.Stderr, f)
 			if !f.Generate {
 				continue
 			}
