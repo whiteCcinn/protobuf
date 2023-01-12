@@ -1576,7 +1576,7 @@ func needsStar(typ descriptor.FieldDescriptorProto_Type) bool {
 // package name followed by the item name.
 // The result always has an initial capital.
 func (g *Generator) TypeName(obj Object) string {
-	fmt.Println(obj.TypeName())
+	fmt.Fprintln(os.Stderr, obj.TypeName())
 	return g.DefaultPackageName(obj) + CamelCaseSlice(obj.TypeName())
 }
 
